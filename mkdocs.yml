@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Visual Update Documentation
 site_author: Soner Boztas
-# Set the remote branch to commit to when using gh-deploy to deploy to GitHub Pages.
-remote_branch: build
+repo_url: https://github.com/soner-boztas/visual-update-express-docs
+edit_uri: edit/main/docs/
 # site_url:
 theme:
   name: material
@@ -33,6 +33,7 @@ theme:
     - navigation.footer
     # Activate copy button for code blocks.
     - content.code.copy
+    - content.action.view
 
 copyright: Copyright &copy; 2007-[Year] solicus. Last build on [Date]. Revision&colon; [CommitHash]. Branch&colon; [Branch].
 
@@ -62,6 +63,12 @@ nav:
 plugins:
   - search
   - table-reader
+  # Add support for displaying the date of last update and creation of a document at the bottom of each page.
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+    repository: soner-boztas/visual-update-express-docs
+    branch: main
 
 markdown_extensions:
   - toc:
