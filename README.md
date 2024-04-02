@@ -6,7 +6,7 @@
 
 This repository contains the source files for the official documentation of Visual Update Express.
 
-The rendered documentation is hosted on GitHub Pages and is accessible through this URI: https://soner-boztas.github.io/visual-update-express-docs/
+The rendered documentation is hosted on GitHub Pages and is accessible through this URI: https://docs.visualupdate.net
 
 ## Contributing
 
