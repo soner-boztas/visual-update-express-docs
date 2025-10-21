@@ -1,8 +1,6 @@
-[build environment]: ../terminology/
-
-[target environment]: ../terminology/
-
-[server environment]: /getting-started/terminology/
+[build environment]: ../getting-started/terminology.md
+[target environment]: ../getting-started/terminology.md
+[server environment]: ../getting-started/terminology.md
 
 [ASCII]: https://en.wikipedia.org/wiki/ASCII
 [BOM]: https://en.wikipedia.org/wiki/Byte_order_mark
