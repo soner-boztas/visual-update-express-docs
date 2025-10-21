@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Frequently Asked Questions
 
 ??? question "Are there any costs associated with using Visual Update Express?"
@@ -11,7 +17,7 @@
 
 ??? question "Are DUP's compiled native machine code?"
 
-    Yes! The program code of Visual Update Express setup package executables is pure C code compiled with
+    Yes! The program code of the Visual Update Express DUP stub is pure C code compiled with
     [gcc](https://gcc.gnu.org/).
 
 ??? question "Can I deploy DUP's together with any application, regardless of the technology used?"
@@ -28,7 +34,7 @@
 
     No, this behavior is implemented by design.
 
-??? question "Can I use my own translation for the [DUP wizard]?"
+??? question "Can I use my own translation for the [DUP Wizard]?"
 
     No, Visual Update Express does not provide any functionality for using custom translations.
 
@@ -36,8 +42,7 @@
 
     No, all you need is at least a minimal HTTP/web server.
 
-??? question "How can I integrate the Visual Update [build system] into a CD-pipeline?"
+??? question "How can I integrate the Visual Update build system into a CD-pipeline?"
 
-    Unfortunately, this is not supported at the moment. You are only able to build DUP's from the InstallForge build
-    system graphical user interface, making automation via scripts impossible. We understand this great need, though,
-    and will come up with a convenient solution in the near future.
+    Yes, this is supported through the InstallForge CLI builder (available with InstallForge version 1.5.0+).
+    You can find more information about this in the [InstallForge documentation](https://docs.installforge.net/).

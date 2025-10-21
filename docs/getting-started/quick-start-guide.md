@@ -179,32 +179,26 @@ To employ the method via SSH, follow these steps:
 
 1. Launch your local system shell and establish a secured connection to the [server environment] by executing the
    following command-line:
-
-```shell
-$ ssh <UserName>@<HostName>
-```
-
+    ```shell
+    $ ssh <UserName>@<HostName>
+    ```
 2. Once connected to the host, switch (`cd`) to the root web folder.
 3. Create an empty folder named `MyApp` and switch to it: `mkdir MyApp && cd MyApp`
-3. Create an empty file named `updatescript.ini`:
-
-```shell
-$ touch updatescript.ini
-```
-
-4. Open the file `updatescript.ini` with any text editor such as _nano_ or vim_ and paste the following content to it.
-
-```
-releases{
-1.0.0
-}
-
-release:1.0.0{
-
-}
-```
-
-5. Create an empty folder named `Updates`: `mkdir Updates`
+4. Create an empty file named `updatescript.ini`:
+    ```shell
+    $ touch updatescript.ini
+    ```
+5. Open the file `updatescript.ini` with any text editor such as _nano_ or vim_ and paste the following content to it.
+    ```
+    releases{
+    1.0.0
+    }
+    
+    release:1.0.0{
+    
+    }
+    ```
+6. Create an empty folder named `Updates`: `mkdir Updates`
 
 ## Releasing a New Version
 
@@ -225,26 +219,26 @@ In order for these changes to be available for your shipped DUP's, you will need
 
 1. Launch your local system shell and establish a secured connection to the [server environment] by executing the
    following command-line:
-```shell
-$ ssh <UserName>@<HostName>
-```
+    ```shell
+    $ ssh <UserName>@<HostName>
+    ```
 2. Once connected to the host, switch (`cd`) the folder `MyApp` located in the web root folder.
 3. Open the file `updatescript.ini` with any text editor of your choice and replace its content with the following:
-```
-releases{
-1.0.0
-1.1.0
-}
-
-release:1.0.0{
-
-}
-
-release:1.1.0{
-DownloadFile:MyApp.exe,
-DownloadFile:someLib.dll,lib\
-}
-```
+    ```
+    releases{
+    1.0.0
+    1.1.0
+    }
+    
+    release:1.0.0{
+    
+    }
+    
+    release:1.1.0{
+    DownloadFile:MyApp.exe,
+    DownloadFile:someLib.dll,lib\
+    }
+    ```
 4. Upload the files `MyApp.exe` and `someLib.dll` from the [build environment] to the folder `Updates` on
    the [server environment][^2]
 

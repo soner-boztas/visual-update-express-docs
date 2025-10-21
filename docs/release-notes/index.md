@@ -5,6 +5,14 @@ hide:
 
 # Release Notes
 
+## Version 1.2.2 (2025-10-19)
+
+`Available with InstallForge version 1.5.0`
+
+* `Feature` Building DUP's in the context of a Continuous Deployment (CD) pipeline is now supported through the InstallForge CLI builder (available with InstallForge version 1.5.0+). More information can be found in the [InstallForge documentation](https://docs.installforge.net/).
+* `Feature` Support for French language in the DUP Wizard (translation provided by Melchior V.)
+* `Enhancement` Updated external libraries to the latest versions for improved security and stability
+
 ## Version 1.2.1 (2020-06-17)
 
 `Available with InstallForge version 1.4.2`

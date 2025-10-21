@@ -1,13 +1,9 @@
 # Reporting a Bug
 
 We set high standards for ourselves and always strive to deliver high quality to Visual Update Express users. However,
-no software application is free from defects. If you think you have found a bug, please
-report it in our [public user forums](https://installforge.net/forums/viewforum.php?f=9).
+no software application is free from defects. If you think you have found a bug, please report it in our
+[GitHub Issue Tracker](https://github.com/soner-boztas/installforge), which is managed under the InstallForge project.
 
-!!! info
-
-    In order to report a bug in our user forums, you will first need to
-    [create an account](https://installforge.net/forums/ucp.php?mode=register).
 
 If you want to report a bug, please provide us with the following information:
 
