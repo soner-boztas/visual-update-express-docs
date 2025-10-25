@@ -3,7 +3,7 @@
 This section lists the system prerequisites for operating Visual Update. A distinction is made here between the
 [build environment], [target environment] and the [server environment].
 
-Before using Visual Update Express, please make sure that the requirements listed are met by the different environments.
+Before using Visual Update, please make sure that the requirements listed are met by the different environments.
 
 === "Build Environment Prerequisites"
 
