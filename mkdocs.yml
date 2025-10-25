@@ -5,7 +5,7 @@
 ############################################################
 site_name: Visual Update Documentation
 site_author: Soner Boztas & Contributors
-copyright: Copyright &copy; 2010-[Year] Soner Boztas & Contributors. Last build on [Date]. Revision&colon; [CommitHash]. Branch&colon; [Branch].
+copyright: Copyright &copy; 2010-[Year] solicus. Last build on [Date]. Revision&colon; [CommitHash]. Branch&colon; [Branch].
 
 site_url: https://docs.visualupdate.net
 repo_url: https://github.com/soner-boztas/visual-update-express-docs
@@ -26,6 +26,10 @@ nav:
       - System Prerequisites: getting-started/system-prerequisites.md
       - Installation: getting-started/installation.md
       - Quick Start Guide: getting-started/quick-start-guide.md
+  - Reference:
+    - reference/index.md
+    - Update Script: reference/update-script.md
+    - Path Constants: reference/path-constants.md
   - FAQ:
       - faq/index.md
   - Release Notes:
@@ -38,6 +42,8 @@ nav:
       - Making a Donation: contributing/making-a-donation.md
   - License:
       - license/index.md
+      - Visual Update Community: license/community-eula.md
+      - Visual Update Pro: license/pro-eula.md
 
 ############################################################
 # Theme Configuration
