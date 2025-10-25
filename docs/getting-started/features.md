@@ -1,6 +1,6 @@
 # Features
 
-Visual Update Express is capable of the following features enabling you to create powerful update packages you may ship
+Visual Update is capable of the following features enabling you to create powerful update packages you may ship
 together with your software products:
 
 - [x] Robust, proprietary update engine compiled into native x86 machine code without any external dependencies (such as

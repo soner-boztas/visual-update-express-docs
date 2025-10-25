@@ -1,6 +1,6 @@
 # Asking a Question
 
-If you have any general or specific questions concerning the use of Visual Update Express, or if you are stuck with a
+If you have any general or specific questions concerning the use of Visual Update or if you are stuck with a
 problem, please post a message in our [public user forums](https://installforge.net/forums/viewforum.php?f=9). Our user
 community will be happy to help you.
 
