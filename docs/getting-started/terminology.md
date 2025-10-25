@@ -5,7 +5,7 @@ ensure a clear understanding, these terms are therefore listed separately here t
 
 `Build Environment`
 
-: Environment used to create distributable update packages (DUP's) through the Visual Update Express build system.
+: Environment used to create distributable update packages (DUP's) through the Visual Update build system.
 
 `Target Environment`
 
@@ -18,7 +18,7 @@ ensure a clear understanding, these terms are therefore listed separately here t
 `Distributable Update Package (DUP)`
 
 : Self-contained, executable application used to update a certain software product. DUP's are executed on the
-[target environment]. A DUP consists of the Visual Update Express engine and other compiled libraries (back-end) as
+[target environment]. A DUP consists of the Visual Update engine and other compiled libraries (back-end) as
 well as of a graphical user interface (GUI; front-end).
 
 `DUP Wizard`

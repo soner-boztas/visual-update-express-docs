@@ -1,11 +1,11 @@
 # Installation
 
-This section addresses the installation of the Visual Update Express build system, which is used to create
+This section addresses the installation of the Visual Update build system, which is used to create
 distributable update packages (DUP) on the [build environment].
 
 !!! info
 
-    Since the Visual Update Express build system is tighly integrated into InstallForge, refer to the [InstallForge
+    Since the Visual Update build system is tighly integrated into InstallForge, refer to the [InstallForge
     documentation](https://installforge.net/docs/getting-started/installation/) for installation instructions.
 
 In order to install InstallForge on your system follow these steps:
@@ -17,10 +17,10 @@ In order to install InstallForge on your system follow these steps:
 
 ## Update
 
-The Visual Update Express build system is updated together with InstallForge;
+The Visual Update build system is updated together with InstallForge;
 refer to the [InstallForge documentation](https://installforge.net/docs/getting-started/installation/#update).
 
 ## Uninstallation
 
-The Visual Update Express build system is uninstalled together with InstallForge;
+The Visual Update build system is uninstalled together with InstallForge;
 refer to the [InstallForge documentation](https://installforge.net/docs/getting-started/installation/#uninstallation).
