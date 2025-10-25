@@ -17,4 +17,4 @@ your update process.
 
     The resolved paths **do** contain a trailing backslash (`\`).
 
-{{ read_csv('../../data/PathConstants.csv') }}
+{{ read_csv('../../data/pathConstants.csv') }}
