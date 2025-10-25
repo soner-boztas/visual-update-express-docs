@@ -1,14 +1,14 @@
-# Visual Update Express Docs
+# Visual Update Docs
 
 ## Overview
 
-This repository contains the source files for the official documentation of Visual Update Express.
+This repository contains the source files for the official documentation of Visual Update.
 
 The rendered documentation is hosted on GitHub Pages and is accessible through this URI: https://docs.visualupdate.net
 
 ## Contributing
 
-Any contributions to the Visual Update Express documentation are highly appreciated.
+Any contributions to the Visual Update documentation are highly appreciated.
 Please use the _fork and pull request_ pattern for this intention.
 
 ## Setting up the Development Environment
